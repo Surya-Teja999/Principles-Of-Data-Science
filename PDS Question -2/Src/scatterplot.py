@@ -1,0 +1,5 @@
+plt.scatter(Students_Performance_data['math score'],Students_Performance_data['reading score'],color='red')
+plt.title("Mathematics scores vs Reading scores")
+plt.xlabel("Math Score from dataset")
+plt.ylabel("reading score from dataset")
+plt.show()

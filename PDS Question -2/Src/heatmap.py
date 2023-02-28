@@ -1,0 +1,5 @@
+corr=Students_Performance_data.corr(numeric_only=True)
+colormap = seaborn.color_palette("Greens")
+seaborn.heatmap(corr,cmap=colormap,annot=True)
+plt.title("Correlation Matrix")
+plt.show()
